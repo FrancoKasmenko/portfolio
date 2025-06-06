@@ -1,12 +1,14 @@
 "use client";
 import { useEffect, useState } from "react";
+import { useTranslation } from "@/app/components/useTranslation";
 
 export default function IntroText() {
+  const { t } = useTranslation();
+  const textoPrincipal = t("introPrincipal");
+  const textoSecundario = t("introSecundario");
+
   const [visibleIndex, setVisibleIndex] = useState(0);
   const [showCursor, setShowCursor] = useState(true);
-
-  const textoPrincipal = "Soy Franco Kasmenko";
-  const textoSecundario = "Y este es mi portfolio.";
 
   useEffect(() => {
     const totalLength = textoPrincipal.length + textoSecundario.length + 1;
@@ -20,7 +22,7 @@ export default function IntroText() {
       });
     }, 40);
     return () => clearInterval(interval);
-  }, []);
+  }, [textoPrincipal, textoSecundario]); 
 
   useEffect(() => {
     const cursorInterval = setInterval(() => {
