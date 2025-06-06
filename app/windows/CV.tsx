@@ -3,8 +3,8 @@ import { FileText, Download, ExternalLink } from "lucide-react";
 import { useLang } from "@/app/components/LanguageProvider";
 
 const PDF_IDS = {
-  es: "1ZZ321hYt-0FjZ1YS7IuR5G3g36_p6p9d",
-  en: "1iDvn-kfIcptdoeKX0pzaSMjkmPsdDJQ-",
+  es: "1aj3HbDl70JYytMTydZOg0USPqh4oMPnT",
+  en: "1jSsccTb2lQjP3qywjpwYgMDchINNbe_w",
 };
 
 const PDF_LOCAL = {

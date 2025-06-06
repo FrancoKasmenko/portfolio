@@ -67,22 +67,6 @@ export default function SobreMi() {
         <h2 className="text-lg font-bold mb-2 text-[#181b22]">{t("experiencia")}</h2>
         <ul className="space-y-6">
 
-          {/* SCOUTING CLUB */}
-          <li className="rounded-lg bg-[#ededed] border-l-4 border-[#1c4bdd] p-4 shadow-inner">
-            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2 gap-1">
-              <span className="font-bold text-[#191b24]">{t("expScoutingTitulo")}</span>
-              <span className="text-xs text-[#1c4bdd]">{t("expScoutingLugar")}</span>
-            </div>
-            <span className="text-xs text-[#3c3c3c]">{t("expScoutingPuesto")}</span>
-            <span className="text-xs text-[#666]">{t("expScoutingTiempo")}</span>
-            <ul className="list-disc pl-5 mt-2 text-sm text-[#222] space-y-1">
-              <li>{t("expScoutingBullets1")}</li>
-              <li>{t("expScoutingBullets2")}</li>
-              <li>{t("expScoutingBullets3")}</li>
-              <li>{t("expScoutingBullets4")}</li>
-            </ul>
-          </li>
-
           {/* ASTROTECH */}
           <li className="rounded-lg bg-[#ededed] border-l-4 border-[#1c4bdd] p-4 shadow-inner">
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2 gap-1">

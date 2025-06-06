@@ -116,9 +116,9 @@ export const translations: Record<string, Record<string, string>> = {
 
         educacionTitulo: "EDUCACIÓN",
         eduOrt: "Facultad de Ingeniería ORT",
-        eduOrtTitulo: "Analista Programador (En pausa)",
+        eduOrtTitulo: "Analista Programador (En curso)",
         eduOrtLugar: "Montevideo, Uruguay",
-        eduOrtTiempo: "Junio – Diciembre 2023",
+        eduOrtTiempo: "Junio 2023",
         eduEsi: "Escuela Superior de Informática",
         eduEsiTitulo: "Desarrollo WEB",
         eduEsiLugar: "Montevideo, Uruguay",
