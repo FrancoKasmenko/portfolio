@@ -8,7 +8,7 @@ const proyectos = [
     nombre: "Petiqueta",
     descripcionKey: "petiquetaDesc",
     link: "https://petiqueta.uy",
-    github: "https://github.com/frankodev/petiqueta",
+    github: "https://github.com/FrancoKasmenko/petiqueta",
     img: "/archivos/petiqueta.png",
     tecnologias: [
       "PHP",
