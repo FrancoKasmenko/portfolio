@@ -7,7 +7,7 @@ export async function POST(request) {
     service: "gmail",
     auth: {
       user: "fkasmenko@gmail.com",
-      pass: process.env.GMAIL_APP_PASSWORD, 
+      pass: process.env.GMAIL_APP_PASSWORD,
     },
   });
 
@@ -20,6 +20,9 @@ export async function POST(request) {
     });
     return new Response(JSON.stringify({ ok: true }), { status: 200 });
   } catch (e) {
-    return new Response(JSON.stringify({ error: "No se pudo enviar el mail" }), { status: 500 });
+    return new Response(
+      JSON.stringify({ error: "No se pudo enviar el mail", detail: String(e) }),
+      { status: 500 }
+    );
   }
 }
