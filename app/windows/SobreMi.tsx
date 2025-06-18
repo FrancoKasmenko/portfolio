@@ -9,7 +9,7 @@ const skills = [
   { nombre: "Tailwind", label: "Tailwind", color: "#38bdf8", text: "#222" },
   { nombre: "PHP", label: "PHP", color: "#8993be" },
   { nombre: "MySQL", label: "MySQL", color: "#00618a" },
-  { nombre: "Node.js", label: "Next.js", color: "#00FF00", text: "#fff" },
+  { nombre: "Node.js", label: "Next.js", color: "#00FF00", text: "#222" },
 ];
 
 export default function SobreMi() {
